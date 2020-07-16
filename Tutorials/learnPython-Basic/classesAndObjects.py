@@ -10,7 +10,7 @@ class testClass:
 # Assigning the class to an object.
 testObject = testClass()
 
-# Accessing the variable within the object, using the 'object.variable' format.
+# Accessing Object Variables: Use the 'object.variable' format.
 testObject.testVar
 # Printing the variable within the object.
 print (testObject.testVar)
@@ -28,5 +28,5 @@ print (testObject.testVar)
 print (testObject2.testVar)
 print()
 
-# You can access the functions inside of an object the same way you access variables. 'object.function()'
+# Accessing Object Functions: You can access the functions inside of an object the same way you access variables. 'object.function()'
 testObject.testFunc()
