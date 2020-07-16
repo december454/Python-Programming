@@ -29,3 +29,16 @@ basicFunc()
 # Calling to the functions and sending them arguments.
 numFunc(42,3)
 stringFunc("Hello", "There")
+
+# Functions can also 'return' values to the caller.
+def productFunc (num1, num2):
+    # Using the 'return' keyword.
+    return num1 * num2
+
+def subFunc (num1, num2):
+    return num1 - num2
+
+# Calling to the functions, sending them values, and receiving a value back.
+print ("\nValue returned from the product function:", productFunc(7,6))
+print ("Value returned from the subtraction duntion:", subFunc(128,32))
+
