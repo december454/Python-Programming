@@ -1,0 +1,2 @@
+def printTest():
+    print ("This was printed from the 'insidePackage' file, located within the 'testPackage' directory.")
